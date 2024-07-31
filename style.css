@@ -1,0 +1,360 @@
+*{
+    margin: 0%;
+    font-family: arial;
+    border: border-box;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.navbar{
+    height: 65px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color: white;
+}
+.nav-logo{
+    height: 60px;
+    width: 118px;
+    background: url(amazonlogo.jpeg);
+    background-size: cover;
+}
+.nav-location{
+    height: 60px;
+    width: 160px;
+    color: white;
+}
+#D{
+    margin-left: 20px;
+    color: grey;
+    font-size: .8rem;
+}
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 600px;
+    margin-left: 0px;
+    background-color: rgb(212, 102, 34);
+    justify-content: space-around;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+input{
+    width: 100%;
+}
+#search-all{
+    background-color: rgb(219, 218, 218);
+    width: 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-icon{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;   
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+.sign-in{
+   
+    font-size: 0.8rem;
+    
+    justify-content: center;
+} 
+.sign-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+    
+}
+.return{
+   
+    justify-content: center;
+}
+.cart{
+   
+    justify-content: center;
+}
+.second-navbar{
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.shopping{
+    height: 38px;
+    width: 400px;
+    background: url(amazonbox.jpg);
+    margin-left: 100px;
+}
+.main{
+    height: 500px;
+    width: 100%;
+    background: url(shopping.png);
+    background-size: cover;
+}
+.submain{
+    position: absolute;
+    display: flex;
+    top: 365px;
+    height: 500px;
+    width: 1000;
+    padding-left: 20px;
+}
+.firstbox{
+    height: 400px;
+    width: 270px;
+    padding:10px;
+    background-color: white;
+}
+.firstimg{
+    height:310px;
+    width: 100%;
+    background: url(1st.jpg)no-repeat;
+    background-size: contain;
+}
+#link{
+    font-weight: 600;
+    
+    color: rgb(47, 138, 142);
+}
+.secondbox{
+    height: 400px;
+    width: 270px;
+    padding: 20px;
+    background-color: white;
+   
+    margin-left: 20px;
+}
+.secondbox1{
+    display: flex;
+    height: 160px;
+    width: 270px;
+    background-color: white;
+   
+}
+.sbox1{
+    height: 150px;
+    width: 130px;
+   
+}
+.s1stimg{
+    height: 100px;
+    width: 100%;
+   
+    background: url(2nd.jpg);
+    background-size: contain;
+}
+.sbox2{
+    height: 150px;
+    width: 130px;
+    
+    margin-left: 30px;
+}
+.s2ndimg{
+    height: 100px;
+    width: 100%;
+    
+    background: url(3rd.jpg);
+    background-size: contain; 
+}
+.secondbox2{
+    display: flex;
+    height: 160px;
+    width: 270px;
+    background-color: white;
+}   
+.sbox3{
+    height: 150px;
+    width: 130px;
+   
+    margin-left: 0px;
+}
+.s3rdimg{
+    height: 100px;
+    width: 100%;
+    border:2px solid black ; 
+    background: url(4th.jpg);
+    background-size: contain; 
+}
+.sbox4{
+    height: 150px;
+    width: 130px;
+    
+    margin-left: 30px;
+}
+.s4thimg{
+    height: 100px;
+    width: 100%;
+   
+    background: url(5th.jpg);
+    background-size: contain; 
+}
+.thirdbox{
+    height: 400px;
+    width: 270px;
+    padding: 20px;
+    background-color: white;
+   
+    margin-left: 30px;
+}
+.thirdbox1{
+    display: flex;
+    height: 160px;
+    width: 270px;
+    background-color: white;
+   
+}
+.tbox1{
+    height: 150px;
+    width: 130px;
+    
+}
+.t1stimg{
+    height: 100px;
+    width: 100%;
+   
+    background: url(6th.jpg);
+    background-size: contain;
+}
+.tbox2{
+    height: 150px;
+    width: 130px;
+   
+    margin-left: 30px;
+}
+.t2ndimg{
+    height: 100px;
+    width: 100%;
+   
+    background: url(7th.jpg);
+    background-size: contain; 
+}
+.thirdbox2{
+    display: flex;
+    height: 160px;
+    width: 270px;
+    background-color: white;
+   
+}
+.tbox3{
+    height: 150px;
+    width: 130px;
+   
+    margin-left: 0px;
+}
+.t3rdimg{
+    height: 100px;
+    width: 100%;
+    
+    background: url(8th.jpg);
+    background-size: contain; 
+}
+.tbox4{
+    height: 150px;
+    width: 130px;
+   
+    margin-left: 30px;
+}
+.t4thimg{
+    height: 100px;
+    width: 100%;
+    
+    background: url(9th.jpg);
+    background-size: contain; 
+}
+.fourthbox{
+    height: 400px;
+    width: 270px;
+    padding: 20px;
+    background-color: white;
+    
+    margin-left: 30px;
+}
+.fourthbox1{
+    display: flex;
+    height: 160px;
+    width: 270px;
+    background-color: white;
+   
+}
+.fbox1{
+    height: 150px;
+    width: 130px;
+}   
+.f1stimg{
+    height: 100px;
+    width: 100%;
+   
+    background: url(11th.jpg);
+    background-size: contain;
+}
+.fbox2{
+    height: 150px;
+    width: 130px;
+   
+    margin-left: 30px;
+}
+.f2ndimg{
+    height: 100px;
+    width: 100%;
+    
+    background: url(12th.jpg);
+    background-size: contain; 
+}
+.fourthbox2{
+    display: flex;
+    height: 160px;
+    width: 270px;
+    background-color: white;
+   
+}
+.fbox3{
+    height: 150px;
+    width: 130px;
+   
+    margin-left: 0px;
+}
+.f3rdimg{
+    height: 100px;
+    width: 100%;
+   
+    background: url(13th.jpg);
+    background-size: contain; 
+}
+.fbox4{
+    height: 150px;
+    width: 130px;
+   
+    margin-left: 30px;
+}
+.f4thimg{
+    height: 100px;
+    width: 100%;
+    
+    background: url(14th.jpg);
+    background-size: contain; 
+}
+.s1stinfo{
+    font-size: 13px;
+    font-weight: 500;
+}
+#one{
+    margin-bottom: 30px;
+}
+#two{
+    margin-bottom: 25px;
+}
